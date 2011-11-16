@@ -1,0 +1,11 @@
+#
+# Configuration for nmi_hw (ISDB-T)
+#
+#Derek: porting the fc8100 driver:2010.07.28
+config ISDBT_FC8100
+	bool "Samsung ISDB-T FC8100 Driver" 
+	default n
+	---help---
+	  This is a ISDB-T for FC8100 Driver.
+
+
